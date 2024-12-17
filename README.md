@@ -33,10 +33,19 @@ This is a modern and responsive **Portfolio Website** built using HTML, CSS, and
 
 Experience the live version of the Portfolio Website here: [Live Demo](https://klizosportfoliowebsite.netlify.app)
 
-## Screenshots
+### Screenshots
 
-### Home Page
-![Portfolio Website Screenshot] ![Screenshot (5)](https://github.com/user-attachments/assets/e54990aa-58b8-497d-bf20-c9f074138f02)
+## Home Page
+![Screenshot (5)](https://github.com/user-attachments/assets/e54990aa-58b8-497d-bf20-c9f074138f02)
+
+## About Me Page
+![Screenshot (19)](https://github.com/user-attachments/assets/9d29c062-7806-419b-ad08-778bbb000b18)
+
+## Project Page
+![Screenshot (18)](https://github.com/user-attachments/assets/fe1540a3-a83e-43a2-8d45-8dcca2bf4ddc)
+
+## Contact Page
+![Screenshot (17)](https://github.com/user-attachments/assets/874c5224-dce6-4e38-a67a-7d9b19b3d9b3)
 
 
 ## Folder Structure
