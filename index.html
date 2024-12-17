@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="./style/index.css" />
+    <link rel="stylesheet" href="./style/mediaQuery.css">
+    <script src="https://kit.fontawesome.com/e0534155e7.js" crossorigin="anonymous"></script>
+  </head>
+  <body >
+    <!-- navbar -->
+    <nav id="nav">
+      <div class="nav-container">
+        <div>
+          <a
+            style="
+              font-weight: 900;
+              font-size: larger;
+              color: rgb(13, 110, 110);
+              text-decoration: none;
+            "
+            href="#portfolio"
+            >PortFolio</a
+          >
+        </div>
+
+        <span id="sidemenu">
+          <a href="#aboutme" onclick="closemenu()">About Me</a>
+          <a href="#project" onclick="closemenu()">Project</a>
+          <a href="#contact" onclick="closemenu()">Contact</a>
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </span>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </div>
+    </nav>
+    <main onclick="closemenu()">
+      <!-- subtitle -->
+      <div class="subDetails-container">
+        <div class="subdetails">
+          <p class="wellcome-message">
+            <span>W</span>ellcome to my <span>P</span>ortFolio
+          </p>
+          <p class="name">Debasish Panda</p>
+          <p class="short-message">
+            I am a MERN Stack web Developer at @Klizos, Ex - Intern at
+            @HashedBit
+          </p>
+          <div class="link">
+            <a href="https://in.linkedin.com/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/" target="_blank">GitHub</a>
+            <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+            <a href="https://x.com/" target="_blank">Tweeter</a>
+          </div>
+          <a class="resume" href="./portfolioImages/resume.png" download>Resume</a>
+        </div>
+        <div class="my-image">
+          <img src="./portfolioImages/portImage.jpg" style="width: 80%; height: auto;" alt="my-image"/>
+        </div>
+      </div>
+
+      <!-- about -->
+      <div id="aboutme" class="aboutme-container">
+        <h3 class="title">About Me</h3>
+        <div class="more-info">
+          <p>
+            I want to be a passionate and dedicated Junior Software Developer
+            with a strong technical foundation and a desire to contribute to the
+            field of software development. With a solid background in Java
+            programming and proficiency in HTML, CSS, JavaScript,Tailwind-css,
+            Bootstrap, React.js, Express.js, Node.js, MongoDB, MySQL, Git,
+            Postman and more..., I am equipped with the skills to create
+            efficient and robust software solutions.
+          </p>
+          <div class="all-skills">
+            <div class="skills-container">
+              <a href="#skills">Skills</a>
+              <h5>Front-End Development</h5>
+              <p>Creating UI/UX Websites</p>
+              <h5>UI/UX Designer</h5>
+              <p>Designing Atractive Interface</p>
+              <h5>Java Development</h5>
+              <p>Software Development</p>
+              <h5>MySQL</h5>
+              <p>Building Relational DataBase</p>
+              <h5>MERN-Stack Development</h5>
+              <p>Web Applications Development</p>
+            </div>
+            <div class="skills-container">
+              <a href="#education">Education</a>
+              <h5>Master of Computer Applications (MCA)</h5>
+              <p>Nov 2022 - May 2024</p>
+              <p>
+                Institute Of Management and Information Technology (IMIT),
+                Cuttack |85%
+              </p>
+              <h5>Bachelor Of Computer Application (BCA)</h5>
+              <p>Jul 2019 - May 2022</p>
+              <p>
+                Narasingha Choudhury Autonomous College, Jajpur, Odisha |84%
+              </p>
+              <h5>+2 Science (CHSE)</h5>
+              <p>Jun 2017 - Jun 2019</p>
+              <p>Bidwan Residential High School, Jajpur, Odisha |56%</p>
+              <h5>Matriculation</h5>
+              <p>Mar 2016 - Apr 2017</p>
+              <p>Saraswata Ucha Bidyapitha, Bhadrak, Odisha |70%</p>
+            </div>
+            <div class="skills-container">
+              <a href="#experience">Experience</a>
+              <h5>Java Development</h5>
+              <p>Sep 2023 - Oct 2023</p>
+              <p>Octa Net. Bhubaneswar, Odisha, India (Remote)</p>
+              <br />
+              <p>
+                - Coded and implemented new features in JAVA, enhancing ATM
+                Interface and Calculator functionality.
+              </p>
+              <p>
+                - Conducted thorough testing, ensuring the delivery of
+                high-quality, error-free code.
+              </p>
+              <h5>Full-Stack Web Development</h5>
+              <p>Aug 2023 - Sep 2023</p>
+              <p>
+                HashedBit Innovation. Bhopal, Madhya Pradesh, India (Remote)
+              </p>
+              <br />
+              <p>
+                - Adapted quickly to emerging technologies, enhancing skill set
+                in HTML5, CSS3 and Basic JavaScript.
+              </p>
+              <p>
+                - Successfully delivered two responsive and dynamic projects as
+                Netflix Clone and Temperature Converter.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- project -->
+      <div id="project" class="project-container">
+        <h3 class="title">Latest Project</h3>
+        <div class="all-projects">
+          <div class="image-container">
+            <img src="./projectsImg/portfolio1.jpg" style=" width: 100%; height: 100%;" alt="p1" />
+            <p class="project-texts2">Weather Application</p>
+            <a href="#p1" class="project-texts">View Project</a>
+          </div>
+          <div class="image-container">
+            <img src="./projectsImg/portfolio2.jpg" style=" width: 100%; height: 100%;" alt="p2" />
+            <p class="project-texts2">JobPortal Application</p>
+            <a href="#p2" class="project-texts">View Project</a>
+          </div>
+          <div class="image-container">
+            <img src="./projectsImg/portfolio3.jpg" style=" width: 100%; height: 100%;" alt="p3" />
+            <p class="project-texts2">FoodShop Application</p>
+            <a href="#p3" class="project-texts">View Project</a>
+          </div>
+          <div class="image-container">
+            <img src="./projectsImg/portfolio4.jpg" style=" width: 100%; height: 100%;" alt="p4" />
+            <p class="project-texts2">BookStore Application</p>
+            <a href="#p4" class="project-texts">View Project</a>
+          </div>
+          <div class="image-container">
+            <img src="./projectsImg/portfolio5.jpg" style=" width: 100%; height: 100%;" alt="p5" />
+            <p class="project-texts2">Admin Dashboard</p>
+            <a href="#p5" class="project-texts">View Project</a>
+          </div>
+          <div class="image-container">
+            <img src="./projectsImg/portfolio6.jpg" style=" width: 100%; height: 100%;" alt="p6" />
+            <p class="project-texts2">E-commerce Website</p>
+            <a href="#p6" class="project-texts">View Project</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- contact -->
+      <div id="contact" class="contact-container">
+        <!-- left side -->
+        <div class="contact-info">
+          <p class="title">Contact Me</p>
+          <p style="font-weight: 600">
+            Gmail:
+            <span style="font-size: small; font-style: italic"
+              >debasish@klizos.com</span
+            >
+          </p>
+          <p style="font-weight: 600">
+            Phone:
+            <span style="font-size: small; font-style: italic"
+              >(+91) 9337082036</span
+            >
+          </p>
+        </div>
+        <!-- right side -->
+         <form id="form">
+           <div class="contact-message">
+             <div id="error-messages-name" class= "error-message"></div>
+             <input type="text" placeholder="Name" name="name" id="name" />
+             <div id="error-messages-email" class= "error-message"></div>
+             <input
+               type="email"
+               placeholder="Email Address"
+               name="email"
+               id="email"
+             />
+             <div id="error-messages-message" class= "error-message"></div>
+             <textarea placeholder="Leave your Message" name="message" id="message"></textarea>
+             <button class="submit">Submit</button>
+           </div>
+         </div>
+         </form>
+
+      <!-- pop-up message -->
+      <div class="modal-overlay" id="modalOverlay">
+         <div class="modal">
+              <p>Are you sure you want to submit?</p>
+              <div class="modal-buttons">
+                  <button class="btn-yes" id="yesButton">Yes</button>
+                  <button class="btn-no" id="noButton">No</button>
+              </div>
+         </div>
+      </div>
+    </main>
+
+    <!-- footer -->
+     <div class="arrow-sec"><div class="arrow"><a href="#nav">⬆</a></div></div>
+    <footer>
+      <p class="footer">
+        Copyright <span style="color: brown">&copy;</span> 2024 by Klizos
+        <span style="color: brown">&hearts;</span>
+      </p>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
