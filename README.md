@@ -29,6 +29,9 @@ This is a modern and responsive **Portfolio Website** built using HTML, CSS, and
    ```
 3. Open the `index.html` file in your web browser to view the website.
 
+## Documentation
+https://docs.google.com/document/d/12UVvQZfEIwrxRycrPGjS1jzcaOwiZgniCGUtMKAV1CQ/edit?usp=sharing
+
 ## Live Demo
 
 Experience the live version of the Portfolio Website here: [Live Demo](https://klizosportfoliowebsite.netlify.app)
