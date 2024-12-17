@@ -36,8 +36,7 @@ Experience the live version of the Portfolio Website here: [Live Demo](https://k
 ## Screenshots
 
 ### Home Page
-![Portfolio Website Screenshot](![Screenshot (5)](https://github.com/user-attachments/assets/bdf57b1d-5ff6-4cec-a6ff-c935000fe38c)
-)
+![Portfolio Website Screenshot] ![Screenshot (5)] https://github.com/user-attachments/assets/bdf57b1d-5ff6-4cec-a6ff-c935000fe38c
 
 ## Folder Structure
 
